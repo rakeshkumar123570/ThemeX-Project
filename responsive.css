@@ -1,0 +1,79 @@
+
+/* Nav Section */
+
+.navbar{
+    flex-direction: column;
+    gap:15px;
+}
+
+.logo{
+ margin-left:30px;
+}
+
+.navlinks{
+    text-align: center;
+}
+
+/* Hero Section  */
+
+.head-image img{
+    width: 300px;
+    
+    position: absolute;
+    left: 5%;
+    bottom :70px;
+}
+
+.hero-text{
+    width: 300px;
+}
+
+/* Templates */
+
+.Heading{
+ width: 600px;
+ align-self: self-start;
+
+}
+
+.card1{
+    width:700px;
+    flex-direction: column;
+    gap:30px;
+}
+
+.card-image{
+    width: 650px;
+}
+
+.theme-buttons{
+    margin: 10px 0;
+}
+
+
+/* Cards Section  */
+.line{
+    margin-left:280px;
+}
+
+.team-cards{
+    flex-wrap:wrap;
+
+}
+
+
+.team-card3{
+    margin-top: 40px;
+    margin-left: 240px;
+}
+
+
+.Testimonial{
+    flex-wrap:wrap;
+    gap: 20px;
+    
+}
+
+.test-1{
+    margin-left: 90px;
+}

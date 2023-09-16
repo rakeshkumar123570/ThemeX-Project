@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Navigation bar -->
+    <nav class="bg-white shadow-lg">
+      <div class="container mx-auto px-6 py-3">
+        <div class="flex items-center justify-between">
+          <div>
+            <a href="#" class="text-xl font-bold text-gray-800"
+              >Sharma<span class="text-blue-700">'s </span> Restaurant</a
+            >
+          </div>
+          <div class="flex items-center">
+            <a
+              href="#homo"
+              class="text-gray-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium"
+              >Home</a
+            >
+            <a
+              href="#menu"
+              class="text-gray-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium"
+              >Menu</a
+            >
+            <a
+              href="#About"
+              class="text-gray-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium"
+              >About</a
+            >
+            <a
+              href="#contact"
+              class="text-gray-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section
+      id="hemo"
+      class="bg-cover bg-center h-screen"
+      style="background-image: url(./Restaurant\ image.jpg)"
+    >
+      <div
+        class="bg-gray-900 bg-opacity-75 flex items-center justify-center h-full"
+      >
+        <div class="text-center">
+          <h1 class="text-4xl text-white font-bold mb-4">
+            Discover the Best Steakhouse in Town
+          </h1>
+          <a
+            href="#menu"
+            class="bg-yellow-500 hover:bg-yellow-400 px-6 py-4 text-lg text-white font-semibold rounded-full"
+            >View Menu</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Menu section -->
+    <section class="py-20 bg-white" id="menu">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">
+          Our Menu
+        </h2>
+        <div class="flex flex-wrap -mx-3">
+          <div class="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
+            <div class="menu-item">
+              <img
+                src="./Grilling-Steak.jpg"
+                alt="menu item"
+                class="w-full h-48 object-cover rounded-md"
+              />
+              <div class="menu-content">
+                <h3 class="text-xl font-bold text-gray-800">Grilled Steak</h3>
+                <p class="text-gray-600 mt-2">
+                  Cut from the large end of the Short Loin the T-bone Grilling
+                  Steak is characterized as having meat from the strip loin on
+                  one side of the bone and tenderloin on the other. Fast cooking
+                  and convenient, grilling steaks are tender by nature and
+                  always delicious.
+                </p>
+                <span class="text-gray-600 mt-2">$19.99</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
+            <div class="menu-item">
+              <img
+                src="./Chili-Con-Carne-2.jpg"
+                alt="menu item"
+                class="w-full h-48 object-cover rounded-md"
+              />
+              <div class="menu-content">
+                <h3 class="text-xl font-bold text-gray-800">Chili Con Carne</h3>
+                <p class="text-gray-600 mt-2">
+                  Chili Con Carne is a spicy stew containing chili peppers
+                  (sometimes in the form of chili powder), meat (usually beef),
+                  tomatoes, and often pinto beans or kidney
+                </p>
+                <span class="text-gray-600 mt-2">$12.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
+            <div class="menu-item">
+              <img
+                src="./fish and Chips.jpg"
+                alt="menu item"
+                class="w-full h-48 object-cover rounded-md"
+              />
+              <div class="menu-content">
+                <h3 class="text-xl font-bold text-gray-800">Fish and Chips</h3>
+                <p class="text-gray-600 mt-2">
+                  Fish and chips is a hot dish consisting of fried fish in
+                  batter, served with chips. The dish originated in England,
+                  where these two components had been introduced from separate
+                  immigrant cultures; it is not known who combined them
+                </p>
+                <span class="text-gray-600 mt-2">$10.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
+            <div class="menu-item">
+              <img
+                src="./Chicken-Parmesean.jpg"
+                alt="menu item"
+                class="w-full h-48 object-cover rounded-md"
+              />
+              <div class="menu-content">
+                <h3 class="text-xl font-bold text-gray-800">
+                  Chicken Parmesan
+                </h3>
+                <p class="text-gray-600 mt-2">
+                  Chicken Parmesan is a dish that consists of breaded chicken
+                  breast covered in tomato sauce and mozzarella, parmesan, or
+                  provolone cheese. A quantity of ham or bacon is sometimes
+                  added.
+                </p>
+                <span class="text-gray-600 mt-2">$12.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
+            <div class="menu-item">
+              <img
+                src="./beef burger.jpg"
+                alt="menu item"
+                class="w-full h-48 object-cover rounded-md"
+              />
+              <div class="menu-content">
+                <h3 class="text-xl font-bold text-gray-800">Beef Burger</h3>
+                <p class="text-gray-600 mt-2">
+                  A burger is a patty of ground beef grilled and placed between
+                  two halves of a bun. Slices of raw onion, lettuce, bacon,
+                  mayonnaise, and other ingredients add flavor. Burgers are
+                  considered an American food but are popular around the world.
+                </p>
+                <span class="text-gray-600 mt-2">$9.99</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-3 mb-6">
+            <div class="menu-item">
+              <img
+                src="./steak-fajitas.jpg"
+                alt="menu item"
+                class="w-full h-48 object-cover rounded-md"
+              />
+              <div class="menu-content">
+                <h3 class="text-xl font-bold text-gray-800">Steak Fajitas</h3>
+                <p class="text-gray-600 mt-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <span class="text-gray-600 mt-2">$14.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- About section -->
+    <section id="About-web" class="bg-white py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-10">
+          <div class="px-4 sm:w-1/2 md:w-1/3">
+            <h2
+              class="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none"
+            >
+              About Us
+            </h2>
+          </div>
+          <div class="px-4 sm:w-1/2 md:w-2/3">
+            <p class="mt-5 text-xl text-gray-500">
+              At our restaurant, we strive to provide the best dining experience
+              for our customers. Our chefs use only the freshest ingredients to
+              create delicious and innovative dishes that are sure to delight
+              your taste buds. Whether you're looking for a romantic evening
+              out, a family dinner, or a business lunch, we have something for
+              everyone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story section -->
+    <section class="bg-gray-100 py-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-10">
+          <div class="px-4 sm:w-1/2 md:w-1/3">
+            <h2
+              class="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none"
+            >
+              Our Story
+            </h2>
+          </div>
+          <div class="px-2 sm:w-1/2 md:w-2/3">
+            <p class="mt-2 text-xl text-gray-500">
+              Our restaurant was founded in 2023 by
+              <span class="font-bold text-red-700"> ThemeX Team </span> , who
+              wanted to create a place where people could come together to enjoy
+              great food and company. Over the years, we've built a reputation
+              for excellence, winning numerous awards for our innovative cuisine
+              and exceptional service. Today, we continue to push the boundaries
+              of traditional cooking, using only the freshest, locally sourced
+              ingredients to create dishes that are both delicious and healthy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team section -->
+    <section class="bg-white py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-10">
+          <div class="px-4 sm:w-1/2 md:w-1/3">
+            <h2
+              class="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none"
+            >
+              Our Team
+            </h2>
+          </div>
+          <div class="px-4 sm:w-1/2 md:w-2/3">
+            <p class="mt-5 text-xl text-gray-500">
+              Our team of chefs and servers are passionate about food and
+              hospitality. They are dedicated to providing the best possible
+              experience for our customers, whether it's through creating
+              amazing dishes or going above and beyond to make sure you feel
+              welcome and comfortable. Meet some of our team members below:
+            </p>
+            <ul class="mt-5 text-xl text-gray-500 list">
+              <li class="mb-4">
+                <span class="font-bold">Bharat Sharma</span> - Executive Chef
+              </li>
+              <li class="mb-4">
+                <span class="font-bold">Rahul Sharma</span> - Sous Chef
+              </li>
+              <li class="mb-4">
+                <span class="font-bold">Man Mohan</span> - Head Server
+              </li>
+              <li class="mb-4">
+                <span class="font-bold">Vaibhav Varshney</span> - Bartender
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials section -->
+    <section class="bg-gray-100 py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-10">
+          <div class="px-4 sm:w-1/2 md:w-1/3">
+            <h2
+              class="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none"
+            >
+              Testimonials
+            </h2>
+          </div>
+          <div class="px-4 sm:w-1/2 md:w-2/3">
+            <div class="mt-5 space-y-6">
+              <div class="flex items-start">
+                <div class="flex-shrink-0">
+                  <svg
+                    class="h-8 w-8 text-yellow-400"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 1L9 10H1l7 6.4L4 23l8-5.3L20 23l-3-6.6L23 10h-8l-3-9z"
+                    />
+                  </svg>
+                </div>
+                <div class="ml-3">
+                  <p class="text-lg font-medium text-gray-900">
+                    "The food here is simply amazing!"
+                  </p>
+                  <p class="mt-1 text-lg text-gray-500">- Akash Varshney</p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div class="flex-shrink-0">
+                  <svg
+                    class="h-8 w-8 text-yellow-400"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 1L9 10H1l7 6.4L4 23l8-5.3L20 23l-3-6.6L23 10h-8l-3-9z"
+                    />
+                  </svg>
+                </div>
+                <div class="ml-3">
+                  <p class="text-lg font-medium text-gray-900">
+                    "The service was outstanding."
+                  </p>
+                  <p class="mt-1 text-lg text-gray-500">- Tarun Sharma</p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div class="flex-shrink-0">
+                  <svg
+                    class="h-8 w-8 text-yellow-400"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 1L9 10H1l7 6.4L4 23l8-5.3L20 23l-3-6.6L23 10h-8l-3-9z"
+                    />
+                  </svg>
+                </div>
+
+                <div class="ml-3">
+                  <p class="text-lg font-medium text-gray-900">
+                    "The atmosphere was cozy and inviting."
+                  </p>
+                  <p class="mt-1 text-lg text-gray-500">- Ayushi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ <!-- Contact section -->
+ <div id="contact" class="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-lg mx-auto">
+        <h2 class="text-3xl font-extrabold text-gray-900">Contact Us</h2>
+        <p class="mt-4 text-lg text-gray-500">We'd love to hear from you!</p>
+        <form class="mt-8 space-y-6" action="#" method="POST">
+          <input type="hidden" name="remember" value="true" />
+          <div class="rounded-md shadow-sm -space-y-px">
+            <div>
+              <label for="name" class="sr-only">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                placeholder="Name"
+              />
+            </div>
+            <div>
+              <label for="email-address" class="sr-only">Email address</label>
+              <input
+                id="email-address"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+                class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                placeholder="Email address"
+              />
+            </div>
+            <div>
+              <label for="phone" class="sr-only">Phone</label>
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                required
+                class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-none focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                placeholder="Phone"
+              />
+            </div>
+          </div>
+          <div>
+            <label for="message" class="sr-only">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div>
+            <button
+              type="submit"
+              class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            >
+              <span class="absolute left-0 inset-y-0 flex items-center pl-3">
+                <svg
+                  class="h-5 w-5 text-indigo-500 group-hover:text-indigo-400"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 2a8 8 0 100 16 8 8 0 000-16zM5.172 10.172a"
+                  ></path>
+                  <path
+                    fill-rule="evenodd"
+                    d="M6.586 7.757a.5.5 0 01.707 0L10 10.293l2.707-2.536a.5.5 0 01.707.707l-3 2.828a.5.5 0 01-.707 0l-3-2.828a.5.5 0 010-.707z"
+                    clip-rule="evenodd"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M6.586 12.243a.5.5 0 00-.707 0L4 14.293V7.707l2.586 2.536a.5.5 0 00.707 0l3-2.828a.5.5 0 000-.707l-3-2.828a.5.5 0 00-.707 0L4 6.707v7.586l2.586-2.536a.5.5 0 00.707 0l3 2.828a.5.5 0 000 .707l-3 2.828z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </span>
+              Send Message
+            </button>
+          </div>
+        </form>
+        <div class="mt-6">
+          <div class="relative">
+            <div class="absolute inset-0 flex items-center" aria-hidden="true">
+              <div class="w-full border-t border-gray-300"></div>
+            </div>
+            <div class="relative flex justify-center text-sm">
+              <span class="px-2 bg-gray-50 text-gray-500"
+                >Or contact us directly</span
+              >
+            </div>
+          </div>
+          <div class="mt-6">
+            <dl class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2">
+              <div class="border-t border-gray-200 pt-4">
+                <dt class="text-base font-medium text-gray-500">Address</dt>
+                <dd class="mt-2 text-sm text-gray-900">
+                  123 Main St.<br />
+                  Anytown, USA 12345
+                </dd>
+              </div>
+              <div class="border-t border-gray-200 pt-4">
+                <dt class="text-base font-medium text-gray-500">Phone</dt>
+                <dd class="mt-2 text-sm text-gray-900">+91 0012 236 464</dd>
+              </div>
+              <div class="border-t border-gray-200 pt-4">
+                <dt class="text-base font-medium text-gray-500">Email</dt>
+                <dd class="mt-2 text-sm text-gray-900">themeX@gmail.com</dd>
+              </div>
+              <div class="border-t border-gray-200 pt-4">
+                <dt class="text-base font-medium text-gray-500">Hours</dt>
+                <dd class="mt-2 text-sm text-gray-900">
+                  Monday - Friday: 11am - 10pm<br />
+                  Saturday - Sunday: 9am - 11pm
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+      <div class="container mx-auto px-4">
+        <p class="text-center">
+          &copy; 2023 <span class="text-red-500">Sharma's Restaurant</span> .
+          All rights reserved.
+        </p>
+      </div>
+
+      <a href="#" class="flex w-60 space-x-5 mx-auto pt-6">
+        <i class="fas fa-utensils text-gray-600 mr-2"></i>
+        <i class="fas fa-insta text-red-500"></i>
+        <!-- a red map marker icon -->
+        <i class="fas fa-phone-alt text-green-500"></i>
+        <!-- a green phone icon -->
+        <i class="fas fa-envelope text-blue-500"></i>
+        <!-- a blue envelope icon -->
+        <i class="fab fa-twitter text-blue-400"></i>
+        <!-- a blue Twitter icon -->
+        <i class="fab fa-facebook-f text-blue-700"></i>
+        <!-- a dark blue Facebook icon -->
+        <span class="text-gray-800 font-medium hover:text-gray-900">Menu</span>
+      </a>
+    </footer>
+  </body>
+</html>
